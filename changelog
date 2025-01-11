@@ -1,0 +1,46 @@
+turnkey-odoo-14.2 (1) turnkey; urgency=low
+
+  * Latest upstream version of odoo 8.0 branch via git
+
+  * Updated Adminer to 4.2.5
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances.
+
+ -- Ken Robinson <ken@turnkeylinux.org>  Wed, 28 Jun 2017 22:40:46 -0400
+
+turnkey-odoo-14.1 (1) turnkey; urgency=low
+
+  * Odoo
+    
+      - Latest upstream version of odoo 8.0 branch via git
+      - Fixed bugs #521, #522
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances.
+
+ -- Stefan Davis <nafets.sivad@gmail.com>  Wed, 10 Feb 2016 02:26:00 +1100
+
+turnkey-odoo-14.0 (1) turnkey; urgency=low
+
+  * Initial release of appliance:
+
+      - built on LAPP v14.0 base
+      - includes Odoo v8.0
+      - upstream source install (git)
+
+  * Based on the team work of the following community members:
+    Landis Arnold (@l-arnold)
+    Ken Robinson (@DocCyblade)
+
+    Build source: https://github.com/DocCyblade/tkl-odoo
+    Forked from: https://github.com/l-arnold/tkl-nomadic-odoo
+    Inspired by the original efforts of Carlos Vercelino (@CLVsol)
+    https://github.com/CLVsol/tkl-odoo
+
+  * Hardened default SSL settings
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. 
+
+ -- Ken Robinson <ken@robinsonshome.net>  Thu, 1 Oct 2015 04:00:00 -0500
